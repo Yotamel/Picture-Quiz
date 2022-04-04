@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(62, 63, 65);
+}
+.box {
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    border: 1px solid rgb(230, 203, 173);
+    border-radius: 4px;
+    background-color: rgb(106, 145, 105);
+    padding: 10px;
+    margin:10px;
+}
+.imageDisplay{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin: auto;
+    border: 4px solid rgb(216, 214, 107);
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin:10px;
+    left: 470px;
+}
+.instructionBox {
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    background-color: rgb(183, 219, 166);
+    padding: 5px;
+    margin: 10px;
+}
+.button {
+    width: 600px;
+    height: 50px;
+    display: flex;
+    border-radius: 4px;
+    border: 4px solid rgb(238, 214, 214);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: auto;
+    background-color: rgb(168, 139, 139);
+    padding: 5px;
+    margin: 10px;
+    left: 120px;
+    bottom: 470px;
+}
+.button2 {
+    left: 120px;
+    bottom: 370px;
+}
+.button:hover{
+    background-color: rgb(121, 65, 65);
+}
+.button:active{
+    background-color: rgb(90, 49, 47);
+}
+.buttonText{
+    color: #41211c;
+    font-size: 30px;
+    font-family: 'Signika', sans-serif;
+    padding-bottom: 10px;
+}
+.boxText1{
+    color: #111;
+    font-family: 'Open Sans Condensed', sans-serif;
+    -webkit-text-stroke: 0.6px rgb(255, 255, 255);
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 0 0 5px;
+    padding: 0 30px;
+    text-align: center;
+    text-transform: uppercase; 
+}
+.boxText2{
+    color: #111;
+     font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0 0 5px;
+}
